@@ -16,6 +16,25 @@ remove
 add
 remove
 
+## String Operation
+
+Check if a string contains the prefix
+
+```python
+# Syntax: str.startswith(prefix, start, end)
+#
+# Parameters:
+#
+# prefix: prefix ix nothing but a string that needs to be checked.
+# start: Starting position where prefix is needed to be checked within the string.
+# end: Ending position where prefix is needed to be checked within the string.
+# Return:  Returns True if strings start with the given prefix otherwise returns
+
+var = "new9 string"
+ 
+print(var.startswith("new")) # True
+```
+
 ## Lamda operations
 ### Sorting
 
