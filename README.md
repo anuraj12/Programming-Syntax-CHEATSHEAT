@@ -21,18 +21,77 @@ remove
 Check if a string contains the prefix
 
 ```python
-# Syntax: str.startswith(prefix, start, end)
-#
-# Parameters:
-#
-# prefix: prefix ix nothing but a string that needs to be checked.
-# start: Starting position where prefix is needed to be checked within the string.
-# end: Ending position where prefix is needed to be checked within the string.
-# Return:  Returns True if strings start with the given prefix otherwise returns
+'''
+Syntax: str.startswith(prefix, start, end)
 
+prefix: prefix ix nothing but a string that needs to be checked.
+start: Starting position where prefix is needed to be checked within the string.
+end: Ending position where prefix is needed to be checked within the string.
+Return:  Returns True if strings start with the given prefix otherwise returns
+'''
 var = "new9 string"
  
 print(var.startswith("new")) # True
+```
+
+Check if string contains digits, alphabets
+
+```python
+'''
+Syntax: string.isdigit()
+
+Returns:
+True – If all characters in the string are digits.
+False – If the string contains 1 or more non-digits.
+'''
+string = '15460'
+print(string.isdigit()) # True
+ 
+string = '154abc60' 
+print(string.isdigit()) # False
+```
+
+```python
+'''
+Syntax:  string.isalpha()
+
+True: If all characters in the string are alphabet.
+False: If the string contains 1 or more non-alphabets.
+Errors and Exceptions:
+
+- It contains no arguments, therefore an error occurs if a parameter is passed
+- Both uppercase and lowercase alphabets return “True”
+- Space is not considered to be the alphabet, therefore it returns “False”
+'''
+
+string = 'abc'
+print(string.isalpha()) # True
+  
+string = 'abc111'
+print(string.isalpha()) # False
+  
+# checking if space is an alphabet
+string = 'abc abc'
+print( string.isalpha()) # False
+```
+
+```python
+Syntax:  string_name.isalnum()
+Return: 
+True: If all the characters are alphanumeric 
+False: If one or more characters are not alphanumeric
+
+string = "abc 123"
+print(string.isalnum())  # False
+ 
+string = "abc_123"
+print(string.isalnum())  # False
+ 
+string = "000"
+print(string.isalnum())  # True
+ 
+string = "aaaa"
+print(string.isalnum())  # True
 ```
 
 ## Lamda operations
