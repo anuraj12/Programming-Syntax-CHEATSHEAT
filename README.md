@@ -76,10 +76,12 @@ print( string.isalpha()) # False
 ```
 
 ```python
+'''
 Syntax:  string_name.isalnum()
 Return: 
 True: If all the characters are alphanumeric 
 False: If one or more characters are not alphanumeric
+'''
 
 string = "abc 123"
 print(string.isalnum())  # False
