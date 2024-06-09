@@ -1,10 +1,35 @@
 # Programming-Syntax-CHEATSHEAT
 
-## List/Vector Operations
+## List Operations
 
 add remove
 slice operations
 
+## Queue Operations
+
+```python
+
+# Declaring a Queue
+queue = deque()
+queue = deque(['name','age'])   
+
+# Appending
+queue = deque(3)
+queue.append(6)      # append to the end of the queue   = [3, 6]
+queue.appendleft(9)  # append to the front of the queue = [9, 3, 6]
+
+# Popping
+Print(queue.pop())     # 6  queue = [9, 3]
+Print(queue.popleft()) # 9  queue = [3]
+```
+Additional operartion 
+
+```python
+index(ele, beg, end):- This function returns the first index of the value mentioned in arguments, starting searching from beg till end index.
+insert(i, a) :- This function inserts the value mentioned in arguments(a) at index(i) specified in arguments.
+remove():- This function removes the first occurrence of the value mentioned in arguments.
+count():- This function counts the number of occurrences of value mentioned in arguments.
+```
 
 ## Set operations
 add
