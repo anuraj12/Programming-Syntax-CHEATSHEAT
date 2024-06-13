@@ -1,5 +1,31 @@
 # Programming-Syntax-CHEATSHEAT
 
+
+## Math Operation
+
+Min and Max of two numbers
+```python
+print(min(5, 7)) # 5
+print(max(5, 7)) # 7
+```
+
+Absolute value
+```python
+print(abs(-69)) # 69
+```
+
+Infinite max and min values
+```python
+# Positive Infinity
+float("inf")
+math.inf
+
+# Negative Infinity
+-float("inf")
+-math.inf
+```
+
+
 ## List Operations
 
 add remove
