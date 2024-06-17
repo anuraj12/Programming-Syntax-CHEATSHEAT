@@ -1,6 +1,8 @@
 # Programming-Syntax-CHEATSHEAT
 
 --- enumerate
+--- list/string slicing
+--- range loops
 
 ## Math Operation
 
