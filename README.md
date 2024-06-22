@@ -3,6 +3,7 @@
 --- enumerate
 --- list/string slicing
 --- range loops
+--- constructing list using [] * 5
 
 ## Math Operation
 
